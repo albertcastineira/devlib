@@ -1,9 +1,9 @@
 import CardList from "../components/CardList"
 
-export default function Home({filteredResults}) {
+export default function Home({searchResults}) {
   return (
     <div className="container text-white">
-      <CardList filteredResults={filteredResults} />
+      <CardList searchResults={searchResults} />
     </div>
   )
 }
