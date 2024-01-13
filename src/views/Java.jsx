@@ -92,42 +92,42 @@ const javaMain =
             <CodeBlock code={javaVariables} language={"java"} />
 
             <h3>4. Control Flow:</h3>
-            <p>Java supports conditional statements (if, else, switch) and looping constructs (for, while, do-while).</p>
+            <p>Java supports <strong>conditional statements</strong> ( <strong>if, else, switch</strong> ) and <strong>looping constructs</strong> ( <strong>for, while, do-while</strong> ).</p>
             <CodeBlock code={javaStatements} language={"java"} />
 
             <h3>5. Functions/Methods:</h3>
             <ul>
-                <li>Functions (methods) are blocks of code that perform a specific task.</li>
-                <li>They are defined using the method keyword.</li>
+                <li><strong>Functions (methods)</strong> are blocks of code that <strong>perform</strong> a specific <strong>task</strong>.</li>
+                <li>They are <strong>defined</strong> using the method <strong>keyword</strong>.</li>
                 <CodeBlock code={javaFunction} language={"java"} />
             </ul>
 
             <h3>6. Object-Oriented Programming (OOP):</h3>
             <ul>
-                <li>Java is an object-oriented language, which means it supports principles like encapsulation, inheritance, and polymorphism.</li>
+                <li>Java is an <strong>object-oriented language</strong>, which means it supports principles like <strong>encapsulation</strong>, <strong>inheritance</strong>, and <strong>polymorphism</strong>.</li>
                 <li>Classes are used to model real-world entities, and objects are instances of these classes.</li>
             </ul>
             <CodeBlock code={javaObject} language={"java"} />
 
             <h3>7. Packages and Imports:</h3>
             <ul>
-                <li>Packages are used to organize classes into namespaces.</li>
-                <li>The import statement is used to bring in classes from other packages.</li>
+                <li>Packages are used to <strong>organize classes</strong> into <strong>namespaces</strong>.</li>
+                <li>The <strong>import</strong> statement is used to bring in classes from other packages.</li>
             </ul>
             <CodeBlock code={javaImport} language={"java"} />
 
             <h3>8. Exception Handling:</h3>
-            <p>Java provides a robust exception-handling mechanism using try, catch, finally, and throw.</p>
+            <p>Java provides a <strong>robust exception-handling</strong> mechanism using <strong>try, catch, finally</strong>, and <strong>throw</strong>.</p>
             <CodeBlock code={javaTryCatch} language={"java"} />
 
             <h3>9. Main Method and Entry Point:</h3>
-            <p>Every Java program must have a main method, which serves as the entry point for the program.</p>
+            <p>Every Java program must have a <strong>main method</strong>, which serves as the entry point for the program.</p>
             <CodeBlock code={javaMain} language={"java"} />
 
             <h3>10. Platform Independence:</h3>
             <ul>
-                <li>Java code is compiled into an intermediate form called bytecode.</li>
-                <li>Bytecode can be executed on any device with a Java Virtual Machine (JVM), providing platform independence.</li>
+                <li>Java code is <strong>compiled into</strong> an intermediate form called <strong>bytecode</strong>.</li>
+                <li><strong>Bytecode</strong> can be <strong>executed on any device</strong> with a <strong>Java Virtual Machine (JVM)</strong>, providing <strong>platform independence</strong>.</li>
             </ul>
 
             <p>These are just the basics; Java is a powerful language with a rich set of libraries and frameworks for various applications, including web development, mobile app development, and enterprise-level systems.</p>
