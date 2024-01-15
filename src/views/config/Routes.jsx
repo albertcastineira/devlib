@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import HomeView from '../Home';
 import JavaView from '../Java';
 import SpringBootView from '../SpringBoot'
+import ApiView from '../Api'
 
 const routes = [
   {
@@ -16,6 +17,10 @@ const routes = [
   {
     path: '/spring_boot',
     element: <SpringBootView />,
+  },
+  {
+    path: '/api',
+    element: <ApiView />,
   },
   
 ];

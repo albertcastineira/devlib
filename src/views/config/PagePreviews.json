@@ -9,6 +9,12 @@
         "page" : "spring_boot",
         "title": "Spring Boot",
         "description": "Open-source Java-based framework used to create standalone, production-grade Spring-based Applications. It is part of the larger Spring Framework and is designed to simplify the development of Java applications, particularly for building microservices-based architectures."
+    },
+
+    {
+        "page" : "api",
+        "title": "API",
+        "description": "Set of rules and tools that allows different software applications to communicate with each other. It defines the methods and data formats that applications can use to request and exchange information. APIs are crucial for enabling the integration of different software systems, making it possible for them to work together seamlessly."
     }
 ]
   
