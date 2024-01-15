@@ -11,7 +11,7 @@ export default function Header({ handleSearch, searchQuery }) {
                 <div className="logo col-span-2 mb-4 md:mb-0">
                     <Link to={"/"}>
                         <h1 className="text-white font-normal text-3xl">
-                            <span className="text-blue-500">&#123;</span>DEVLIB<span className="text-blue-500">&#125;</span>
+                            <span className="text-blue-500">&#123;</span>DEV-LIB<span className="text-blue-500">&#125;</span>
                         </h1>
                     </Link> 
                 </div>

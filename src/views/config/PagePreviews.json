@@ -1,8 +1,14 @@
 [
     {
-        "page": "java",
+        "page" : "java",
         "title": "Java Basics",
         "description": "Object-oriented programming language known for its platform independence, making it suitable for a wide range of applications from web development to enterprise solutions."
+    },
+    
+    {
+        "page" : "spring_boot",
+        "title": "Spring Boot",
+        "description": "Open-source Java-based framework used to create standalone, production-grade Spring-based Applications. It is part of the larger Spring Framework and is designed to simplify the development of Java applications, particularly for building microservices-based architectures."
     }
 ]
   

@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import HomeView from '../Home';
 import JavaView from '../Java';
-import { Home, Java } from './Views';
+import SpringBootView from '../SpringBoot'
 
 const routes = [
   {
@@ -12,6 +12,10 @@ const routes = [
   {
     path: '/java',
     element: <JavaView />,
+  },
+  {
+    path: '/spring_boot',
+    element: <SpringBootView />,
   },
   
 ];
