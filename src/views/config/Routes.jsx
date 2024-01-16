@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import HomeView from '../Home';
 import JavaView from '../Java';
 import SpringBootView from '../SpringBoot'
+import MicroservicesView from '../Microservices';
 import ApiView from '../Api'
 
 const routes = [
@@ -22,6 +23,11 @@ const routes = [
     path: '/api',
     element: <ApiView />,
   },
+  {
+    path: '/microservices',
+    element: <MicroservicesView />,
+  },
+
   
 ];
 
