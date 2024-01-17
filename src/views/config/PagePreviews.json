@@ -1,26 +1,123 @@
-[
+[   
+    {
+        "page" : "html&css",
+        "title": "HTML & CSS",
+        "description": "Fundamental technologies used in web development to structure and style content. HTML is used for creating the structure of web pages, while CSS is used for styling and layout.",
+        "terms" : "frontend html css basic websites landing page beginner"
+    },
+
+    {
+        "page" : "javascript",
+        "title": "Javascript Basics",
+        "description": "Versatile and widely-used programming language primarily known for its role in web development. As a client-side scripting language, it enables dynamic and interactive content on websites, making it an integral part of front-end development.",
+        "terms" : "frontend javascript basic websites landing page beginner js"
+    },
+
+    {
+        "page" : "tailwind",
+        "title": "Tailwind CSS",
+        "description": "Utility-first CSS framework that provides a set of pre-designed, low-level utility classes to build user interfaces rapidly. Unlike traditional CSS frameworks that offer pre-designed components, Tailwind focuses on providing a flexible set of utility classes that can be combined to create custom designs. ",
+        "terms" : "frontend html css basic websites landing page beginner tailwindcss"
+        
+    },
+
     {
         "page" : "java",
         "title": "Java Basics",
-        "description": "Object-oriented programming language known for its platform independence, making it suitable for a wide range of applications from web development to enterprise solutions."
+        "description": "Object-oriented programming language known for its platform independence, making it suitable for a wide range of applications from web development to enterprise solutions.",
+        "terms" : "backend programming language server api"
     },
     
     {
         "page" : "spring_boot",
         "title": "Spring Boot",
-        "description": "Open-source Java-based framework used to create standalone, production-grade Spring-based Applications. It is part of the larger Spring Framework and is designed to simplify the development of Java applications, particularly for building microservices-based architectures."
+        "description": "Open-source Java-based framework used to create standalone, production-grade Spring-based Applications. It is part of the larger Spring Framework and is designed to simplify the development of Java applications, particularly for building microservices-based architectures.",
+        "terms" : "backend server api java"
     },
 
     {
         "page" : "microservices",
         "title": "Microservices",
-        "description": "Architectural style that structures an application as a collection of small, independent services, each representing a specific business capability. These services are loosely coupled, meaning they operate independently and can be developed, deployed, and scaled independently. This approach contrasts with monolithic architectures where the entire application is built as a single, tightly integrated unit."
+        "description": "Architectural style that structures an application as a collection of small, independent services, each representing a specific business capability. These services are loosely coupled, meaning they operate independently and can be developed, deployed, and scaled independently. This approach contrasts with monolithic architectures where the entire application is built as a single, tightly integrated unit.",
+        "terms" : "software backend java architecture services"
+    },
+
+    
+    {
+        "page" : "git",
+        "title": "GIT",
+        "description": "Version control system that allows you to track changes to files and folders. It’s a powerful tool that can be used for everything from small personal projects to large-scale enterprise applications.",
+        "terms" : "version control git github branch"
+    },
+
+    {
+        "page" : "docker",
+        "title": "Docker",
+        "description": "Platform for developing, shipping, and running applications in containers. Containers are lightweight, portable, and self-sufficient units that can run applications and their dependencies isolated from the host system.",
+        "terms" : "backend remote hosting execution server java"
+    },
+
+    {
+        "page" : "database",
+        "title": "Database",
+        "description": "Structured collection of data that is organized in a way that makes it easy to manage, retrieve, and update. Databases play a crucial role in storing and managing large volumes of information for various applications and systems.",
+        "terms" : "backend db databases sql postgresql mongo db mysql nosql server"
+    },
+
+    {
+        "page" : "repos",
+        "title": "Repository hosting services",
+        "description": "Provide a platform for hosting and managing version-controlled repositories, making it easier for developers to collaborate on software projects. These services offer features such as version control, collaboration tools, issue tracking, and continuous integration.",
+        "terms" : "hosting github gitlab bitbucket git control version"
+    },
+
+    {
+        "page" : "testing",
+        "title": "Testing",
+        "description": "Helps developers know they are building the right software. When tests are run as part of the development process (often with continuous integration tools), they build confidence and prevent regressions in the code.",
+        "terms" : "backend frontend java programming debuging test bugs"
+    },
+
+    {
+        "page" : "ci_cd",
+        "title": "CI/CD",
+        "description": "Practice of automating building, testing, and deployment of applications with the main goal of detecting issues early, and provide quicker releases to the production environment.",
+        "terms" : "automation testing deploy application issues production env"
+    },
+
+    {
+        "page" : "nodejs",
+        "title": "Node.js",
+        "description": "Open-source, server-side JavaScript runtime environment that allows developers to build scalable and high-performance web applications. It uses an event-driven, non-blocking I/O model, making it efficient for handling concurrent requests. ",
+        "terms" : "server javascript backend env developer application"
+    },
+
+    {
+        "page" : "vite",
+        "title": "Vite",
+        "description": "Build tool for modern web development that aims to provide a fast development server and an optimized build system. It is particularly designed to enhance the development experience for JavaScript frameworks like Vue.js, React, and others.",
+        "terms" : "frontend html css basic websites landing page"
+    },
+
+    {
+        "page" : "linux",
+        "title": "Linux",
+        "description": "Family of open-source and Unix-like operating systems based on the Linux kernel. It is widely used as an alternative to proprietary operating systems due to its open nature, stability, security, and the ability to be highly customized.",
+        "terms" : "OS backend frontend server programming terminal git"
+    },
+
+    {
+        "page" : "react",
+        "title": "React.js",
+        "description": "JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React is widely used for creating interactive and dynamic user interfaces for web applications.",
+        "terms" : "frontend html css jsx framework javascript"
     },
 
     {
         "page" : "api",
         "title": "API",
-        "description": "Set of rules and tools that allows different software applications to communicate with each other. It defines the methods and data formats that applications can use to request and exchange information. APIs are crucial for enabling the integration of different software systems, making it possible for them to work together seamlessly."
+        "description": "Set of rules and tools that allows different software applications to communicate with each other. It defines the methods and data formats that applications can use to request and exchange information. APIs are crucial for enabling the integration of different software systems, making it possible for them to work together seamlessly.",
+        "terms" : "backend server apis requests"
     }
     
 ]

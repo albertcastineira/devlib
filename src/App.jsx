@@ -17,7 +17,8 @@ function App() {
     const filteredResults = PagePreviews.filter(
       (item) =>
         item.title.toLowerCase().includes(query.toLowerCase()) ||
-        item.description.toLowerCase().includes(query.toLowerCase())
+        item.description.toLowerCase().includes(query.toLowerCase()) ||
+        item.terms.toLowerCase().includes(query.toLowerCase())
     );
 
     setSearchResults(filteredResults);
